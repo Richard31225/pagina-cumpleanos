@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: url('assets/ghibli-background.jpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4rem 2rem;
+    margin: 4rem auto;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255,255,255,0.3);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #ffd1dc;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    background-color: #ffc0cb;
+  }
+  
+  .hidden {
+    display: none;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+  
